@@ -25,8 +25,10 @@ local function createScript(parent,class,name,source)
 	s.Parent = parent
 end
 
+local HttpService = game:GetService("HttpService")
+
 local function download(url)
-	return game:HttpGet(url)
+	return HttpService:GetAsync(url)
 end
 
 --------------------------------------------------
@@ -203,5 +205,6 @@ raidSpawn.Anchored = true
 raidSpawn.Parent = workspace
 
 --------------------------------------------------
+
 
 print("Aura / Gacha / Raid System Installed Successfully!")
