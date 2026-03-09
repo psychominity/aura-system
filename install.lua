@@ -81,7 +81,7 @@ end
 --------------------------------------------------
 
 local BASE =
-"https://raw.githubusercontent.com/YOURNAME/aura-system/main/"
+"https://raw.githubusercontent.com/psychominity/aura-system/main/"
 
 --------------------------------------------------
 -- SERVER SCRIPTS
@@ -208,3 +208,4 @@ raidSpawn.Parent = workspace
 
 
 print("Aura / Gacha / Raid System Installed Successfully!")
+
